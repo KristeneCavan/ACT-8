@@ -15,7 +15,7 @@ function Blue(theme) {
         document.body.style.backgroundColor = "#bde0fe";
         document.body.style.color = "white";
         document.body.style.fontFamily = "Arial, sans-serif";
-        updateImage("./man.png");
+        updateImage("images/man.png");
         currentTheme = "blue";
     }
 
@@ -26,7 +26,7 @@ function Pink(theme) {
         document.body.style.backgroundColor = "#ffafcc";
         document.body.style.color = "black";
         document.body.style.fontFamily = "cursive"
-        updateImage("./woman.png");
+        updateImage("images/woman.png");
         currentTheme = "pink";
     }
 }
@@ -38,7 +38,7 @@ function Brown(theme) {
         document.body.style.backgroundColor = "#a98467";
         document.body.style.color = "white";
         document.body.style.fontFamily = "'Times New Roman', Times, serif";
-        updateImage("./old.png");
+        updateImage("images/old.png");
         currentTheme = "brown";
     }
 }
